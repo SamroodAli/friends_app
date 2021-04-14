@@ -10,24 +10,21 @@
     </div>
   <% end %>
   <div class="field form-group">
-    <%= form.label :first_name %>
-    <%= form.text_field :first_name,class:"form-control" %>
+    <%= form.text_field :first_name,class:"form-control",placeholder:'First Name' %>
   </div>
   <div class="field form-group">
-    <%= form.label :last_name %>
-    <%= form.text_field :last_name ,class:"form-control" %>
+    <%= form.text_field :last_name ,class:"form-control" ,placeholder:'Last Name'%>
   </div>
   <div class="field form-group">
-    <%= form.label :email %>
-    <%= form.text_field :email ,class:"form-control" %>
+    <%= form.text_field :email ,class:"form-control" ,placeholder:'Email'%>
   </div>
   <div class="field form-group">
     <%= form.label :phone %>
-    <%= form.number_field :phone  ,class:"form-control" %>
+    <%= form.number_field :phone  ,class:"form-control",placeholder:'Phone' %>
   </div>
   <div class="field form-group">
     <%= form.label :twitter %>
-    <%= form.text_field :twitter ,class:"form-control" %>
+    <%= form.text_field :twitter ,class:"form-control",placeholder:'Twitter' %>
   </div>
   <div class="actions">
     <%= form.submit class:'btn btn-secondary'%>
